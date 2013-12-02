@@ -12,11 +12,11 @@ Cloning the Repository to GitHub
 
 ```
 cd /tmp # make sure this is a directory that exists
-git clone --bare git@github.com:DojoDevCamp/django-angular-pt.git
-cd django-angular-pt.git
+git clone --bare git@github.com:DojoDevCamp/django_angular_pt.git
+cd django_angular_pt.git
 git push --mirror git@github.com:test.git # this will be different for you
 cd ..
-rm -rf django-angular-pt.git
+rm -rf django_angular_pt.git
 ```
 
 Deploying to Heroku
